@@ -14,5 +14,40 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 
 Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 
-## spiegazione-codice
-Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.
+## Spiegazione del Codice
+
+
+### index (_CREA IL TUO ORDINE ~GM_)
+
+La sezione <head> in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
+     <br>
+     
+   ```HTML
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Titolo della pagina -->
+    <title>CREA IL TUO ORDINE ~GM</title>
+</head>
+
+   ``` 
+   <br>
+* <meta charset="UTF-8">: Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
+
+* <meta name="viewport" content="width=device-width, initial-scale=1.0">: Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
+
+* <link rel="stylesheet" href="./style.css">: Collega il tuo foglio di stile CSS locale denominato "style.css". Questo file dovrebbe contenere le regole di stile per la formattazione della tua pagina.
+
+* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">: Collega un foglio di stile CSS esterno fornito dalla libreria "animate.css". Questa libreria offre animazioni predefinite da applicare agli elementi HTML.
+
+* <title>CREA IL TUO ORDINE ~GM</title>: Definisce il titolo della pagina web che verrà visualizzato nella barra del titolo del browser.
+   
