@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Titolo della pagina -->
+    <title>CREA IL TUO ORDINE ~GM</title>
+</head>
+
+<body>
+    <!-- Sezione del titolo -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">CREA IL TUO ORDINE</h1>
+    </div>
+
+    <!-- Sezione delle card (categorie di prodotti) -->
+    <div class="card-container">
+        <!-- Card per gli hamburger -->
+        <div class="card  animate__animated animate__fadeInLeft ">
+            <img src="./HAMBURGER/hamb_1.jpg" alt="Hamburger">
+            <h2>Hamburger</h2>
+            <a href="./HAMBURGER/index.html">PER GLI HAMBURGER</a>
+        </div>
+
+        <!-- Card per le bevande -->
+        <div class="card animate__animated animate__fadeInRight">
+            <img src="./BEVANDE/bevand_4.jpg" alt="Bevande">
+            <h2>Bevande</h2>
+            <a href="./BEVANDE/index.html">PER LE BEVANDE</a>
+        </div>
+
+        <!-- Card per i dessert -->
+        <div class="card animate__animated animate__fadeInDown">
+            <img src="./DESSERT/tort_2.jpg" alt="Dessert">
+            <h2>Dessert</h2>
+            <a href="./DESSERT/index.html">PER I DESSERT</a>
+        </div>
+    </div>
+
+    <!-- Sezione del riepilogo tramite iframe -->
+    <iframe src="riepilogo.php" width="100%" height="500px"></iframe>
+
+    <!-- Form per la conferma dell'ordine -->
+    <form method="post" action="conferma_ordine.php">
+        <!-- Input per il numero del tavolo -->
+        <label for="tableNumber">Inserisci il numero del tavolo:</label>
+        <input type="number" id="tableNumber" name="tableNumber" required>
+        <!-- Pulsante di conferma dell'ordine -->
+        <input type="submit" value="Conferma ordine">
+    </form>
+</body>
+
+</html>

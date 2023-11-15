@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile -->
+    <link rel="stylesheet" href="./style_bevande.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Titolo della pagina -->
+    <title>SCELTA BEVANDE ~GM</title>
+</head>
+
+<body>
+    <!-- Sezione del titolo animato -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">SCEGLI LA BEVANDA</h1>
+    </div>
+
+    <!-- Form per la selezione delle bevande -->
+    <form action="./process_bevande.php" method="post">
+        <!-- Card per la prima bevanda -->
+        <div class="bevande-card animate__animated animate__fadeInLeft ">
+            <img src="./bevand_1.jpg" alt="Bevanda 1">
+            <h2>Acqua Naturale 1L</h2>
+            <p>Prezzo: €2.99</p>
+            <label for="quantita_bevanda_1">Quantità:</label>
+            <input type="number" name="quantita_bevanda_1" id="quantita_bevanda_1" min="0" value="0">
+        </div>
+
+        <!-- Card per la seconda bevanda -->
+        <div class="bevande-card animate__animated animate__fadeInRight ">
+            <img src="./bevand_1.jpg" alt="Bevanda 2">
+            <h2>Acqua Frizzante 1L</h2>
+            <p>Prezzo: €2.99</p>
+            <label for="quantita_bevanda_2">Quantità:</label>
+            <input type="number" name="quantita_bevanda_2" id="quantita_bevanda_2" min="0" value="0">
+        </div>
+
+        <!-- Spaziatura dopo ogni coppia di bevande -->
+        <div class="bevande-row"></div>
+
+        <!-- Card per la terza bevanda -->
+        <div class="bevande-card animate__animated animate__fadeInLeft ">
+            <img src="./bevand_2.jpg" alt="Bevanda 3">
+            <h2>Coca-Cola 1L</h2>
+            <p>Prezzo: €4.00</p>
+            <label for="quantita_bevanda_3">Quantità:</label>
+            <input type="number" name="quantita_bevanda_3" id="quantita_bevanda_3" min="0" value="0">
+        </div>
+
+        <!-- Card per la quarta bevanda -->
+        <div class="bevande-card animate__animated animate__fadeInRight ">
+            <img src="./bevand_4.jpg" alt="Bevanda 4">
+            <h2>Fanta 1L</h2>
+            <p>Prezzo: €4.00</p>
+            <label for="quantita_bevanda_4">Quantità:</label>
+            <input type="number" name="quantita_bevanda_4" id="quantita_bevanda_4" min="0" value="0">
+        </div>
+
+        <!-- Spaziatura dopo ogni coppia di bevande -->
+        <div class="bevande-row"></div>
+
+        <!-- Aggiungi ulteriori bevande qui -->
+
+        <!-- Pulsante di submit per procedere -->
+        <input type="submit" value="AVANTI" style="font-size: 60px;" class=" animate__animated animate__bounceInUp">
+    </form>
+
+</body>
+
+</html>

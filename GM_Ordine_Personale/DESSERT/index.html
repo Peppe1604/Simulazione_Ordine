@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile -->
+    <link rel="stylesheet" href="./style_dolci.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Titolo della pagina -->
+    <title>SCELTA DESSERT ~GM</title>
+</head>
+
+<body>
+    <!-- Sezione del titolo animato -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">SCEGLI IL DOLCE</h1>
+    </div>
+
+    <!-- Form per la selezione dei dolci -->
+    <form action="./process_dolci.php" method="post">
+        <!-- Card per la prima torta -->
+        <div class="dolci-card animate__animated animate__fadeInLeft ">
+            <img src="./tort_1.jpg" alt="Dolce 1">
+            <h2>Torta al Cioccolato</h2>
+            <p>Prezzo: €8.99</p>
+            <label for="quantita_dolce_1">Quantità:</label>
+            <input type="number" name="quantita_dolce_1" id="quantita_dolce_1" min="0" value="0">
+        </div>
+
+        <!-- Card per la seconda torta -->
+        <div class="dolci-card animate__animated animate__fadeInRight ">
+            <img src="./tort_2.jpg" alt="Dolce 2">
+            <h2>Torta alle Fragole</h2>
+            <p>Prezzo: €15.99</p>
+            <label for="quantita_dolce_2">Quantità:</label>
+            <input type="number" name="quantita_dolce_2" id="quantita_dolce_2" min="0" value="0">
+        </div>
+
+        <!-- Spaziatura dopo ogni coppia di dolci -->
+        <div class="dolci-row"></div>
+
+        <!-- Card per la terza torta -->
+        <div class="dolci-card animate__animated animate__fadeInLeft ">
+            <img src="./tort_3.jpg" alt="Dolce 3">
+            <h2>Tiramisù</h2>
+            <p>Prezzo: €10.00</p>
+            <label for="quantita_dolce_3">Quantità:</label>
+            <input type="number" name="quantita_dolce_3" id="quantita_dolce_3" min="0" value="0">
+        </div>
+
+        <!-- Card per la quarta torta -->
+        <div class="dolci-card animate__animated animate__fadeInRight ">
+            <img src="./tort_4.jpg" alt="Dolce 4">
+            <h2>Cannolo al Pistacchio</h2>
+            <p>Prezzo: €9.50</p>
+            <label for="quantita_dolce_4">Quantità:</label>
+            <input type="number" name="quantita_dolce_4" id="quantita_dolce_4" min="0" value="0">
+        </div>
+
+        <!-- Spaziatura dopo ogni coppia di dolci -->
+        <div class="dolci-row"></div>
+
+        <!-- Aggiungi ulteriori dolci qui -->
+
+        <!-- Pulsante di submit per procedere -->
+        <input type="submit" value="AVANTI" style="font-size: 60px;" class=" animate__animated animate__bounceInUp">
+    </form>
+
+</body>
+
+</html>
