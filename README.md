@@ -111,4 +111,3 @@ L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di
 * Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
 Include un **input** di tipo numero per inserire il numero del tavolo, con etichetta associata.
 Contiene un pulsante di conferma dell'ordine.<br>
-si chiude tutto con il tag ***</html>***
