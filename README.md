@@ -41,7 +41,7 @@ La sezione <head> in un documento HTML contiene i metadati e le informazioni di 
 
    ``` 
    <br>
-*  <span style="color:red;">your text here > </span> meta charset="UTF-8  Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
+*  meta charset="UTF-8  Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
 
 * <meta name="viewport" content="width=device-width, initial-scale=1.0">_ Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
 
