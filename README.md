@@ -19,7 +19,7 @@ Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 
 ### ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 
-La sezione "**head**" in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
      <br>
      
    ```HTML
@@ -49,4 +49,25 @@ La sezione "**head**" in un documento HTML contiene i metadati e le informazioni
 * Foglio di Stile Esterno (animate.min.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.
 
 * Titolo della Pagina: "CREA IL TUO ORDINE ~GM" visualizzato nella barra del titolo del browser.
+<br><br>
+
+La sezione :heavy_exclamation_mark: "body" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione <body>:
+<br>
+
+```HTML
+  <body>
+    <!-- Sezione del titolo -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">CREA IL TUO ORDINE</h1>
+    </div>
+
+    <!-- Sezione delle card (categorie di prodotti) -->
+    <div class="card-container">
+        <!-- Card per gli hamburger -->
+        <div class="card  animate__animated animate__fadeInLeft ">
+            <img src="./HAMBURGER/hamb_1.jpg" alt="Hamburger">
+            <h2>Hamburger</h2>
+            <a href="./HAMBURGER/index.html">PER GLI HAMBURGER</a>
+        </div>
+   ``` 
    
