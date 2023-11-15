@@ -41,9 +41,9 @@ La sezione <head> in un documento HTML contiene i metadati e le informazioni di 
 
    ``` 
    <br>
-* <meta charset="UTF-8">: Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
+* _<meta charset="UTF-8">_ Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
 
-* <meta name="viewport" content="width=device-width, initial-scale=1.0">: Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
+* _<meta name="viewport" content="width=device-width, initial-scale=1.0">_ Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
 
 * <link rel="stylesheet" href="./style.css">: Collega il tuo foglio di stile CSS locale denominato "style.css". Questo file dovrebbe contenere le regole di stile per la formattazione della tua pagina.
 
