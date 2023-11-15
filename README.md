@@ -6,7 +6,7 @@ Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre 
 
 Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#Spiegazione-del-Codice).
 
-## Contatti
+## Contatti :page_facing_up:
 - Instagram: _giuseppemaglione_
 - Email: giuseppemaglione1604@gmail.com
 
@@ -110,4 +110,78 @@ L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di
 
 * Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
 Include un **input** di tipo numero per inserire il numero del tavolo, con etichetta associata.
-Contiene un pulsante di conferma dell'ordine.<br>
+Contiene un pulsante di conferma dell'ordine.
+<br><br>
+
+#### :bangbang: Riepilogo Ordine :bangbang:
+<br>
+
+```PHP
+<?php
+// Inizia o ripristina la sessione
+session_start();
+
+// Inizializza i contatori per hamburger, bevande e dolci
+$contator_hamb = 0;
+$contator_bevand = 0;
+$contator_dolce = 0;
+```
+<br>
+* Inizia la sessione PHP e inizializza i contatori per le diverse categorie di prodotti.:small_red_triangle:
+<br>
+
+##### Controllo Hamburger :hamburger:
+
+```PHP
+// HAMBURGER
+$quantita_hamburger_1 = isset($_SESSION["quantita_hamburger_1"]) ? $_SESSION["quantita_hamburger_1"] : 0;
+$quantita_hamburger_2 = isset($_SESSION["quantita_hamburger_2"]) ? $_SESSION["quantita_hamburger_2"] : 0;
+$quantita_hamburger_3 = isset($_SESSION["quantita_hamburger_3"]) ? $_SESSION["quantita_hamburger_3"] : 0;
+$quantita_hamburger_4 = isset($_SESSION["quantita_hamburger_4"]) ? $_SESSION["quantita_hamburger_4"] : 0;
+
+// Calcola il totale per gli hamburger
+$contator_hamb = (8.99 * $quantita_hamburger_1) + (6.99 * $quantita_hamburger_2) + (10 * $quantita_hamburger_3) + (9.50 * $quantita_hamburger_4);
+
+```
+<br>
+* Recupera le quantità selezionate per ciascun tipo di hamburger dalla sessione.:small_red_triangle:
+* Calcola il totale per gli hamburger in base alle quantità e ai prezzi.:small_red_triangle:
+<br>
+
+##### Controllo Bevande :tropical_drink:
+
+```PHP
+// BEVANDE
+$quantita_bevanda_1 = isset($_SESSION["quantita_bevanda_1"]) ? $_SESSION["quantita_bevanda_1"] : 0;
+$quantita_bevanda_2 = isset($_SESSION["quantita_bevanda_2"]) ? $_SESSION["quantita_bevanda_2"] : 0;
+$quantita_bevanda_3 = isset($_SESSION["quantita_bevanda_3"]) ? $_SESSION["quantita_bevanda_3"] : 0;
+$quantita_bevanda_4 = isset($_SESSION["quantita_bevanda_4"]) ? $_SESSION["quantita_bevanda_4"] : 0;
+
+// Calcola il totale per le bevande
+$contator_bevand = (2.99 * $quantita_bevanda_1) + (2.99 * $quantita_bevanda_2) + (4.00 * $quantita_bevanda_3) + (4.00 * $quantita_bevanda_4);
+
+```
+<br>
+* Recupera le quantità selezionate per ciascun tipo di bevanda dalla sessione.:small_red_triangle:
+* Calcola il totale per le bevande in base alle quantità e ai prezzi.:small_red_triangle:
+<br>
+
+##### Controllo Dolci :cake:
+
+```PHP
+// DOLCI
+$quantita_dolce_1 = isset($_SESSION["quantita_dolce_1"]) ? $_SESSION["quantita_dolce_1"] : 0;
+$quantita_dolce_2 = isset($_SESSION["quantita_dolce_2"]) ? $_SESSION["quantita_dolce_2"] : 0;
+$quantita_dolce_3 = isset($_SESSION["quantita_dolce_3"]) ? $_SESSION["quantita_dolce_3"] : 0;
+$quantita_dolce_4 = isset($_SESSION["quantita_dolce_4"]) ? $_SESSION["quantita_dolce_4"] : 0;
+
+// Calcola il totale per i dolci
+$contator_dolce = (8.99 * $quantita_dolce_1) + (15.99 * $quantita_dolce_2) + (10.00 * $quantita_dolce_3) + (9.50 * $quantita_dolce_4);
+
+
+```
+<br>
+* Recupera le quantità selezionate per ciascun tipo di dolce dalla sessione.:small_red_triangle:
+* Calcola il totale per i dolci in base alle quantità e ai prezzi.:small_red_triangle:
+<br>
+
