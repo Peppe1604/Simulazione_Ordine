@@ -4,7 +4,7 @@ Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre 
 
 ## Descrizione
 
-Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#spiegazione-codice).
+Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#Spiegazione-del-Codice).
 
 ## Contatti
 - Instagram: _giuseppemaglione_
@@ -14,7 +14,7 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 
 Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 
-## Spiegazione del Codice
+## Spiegazione-del-Codice
 
 
 ### index (_CREA IL TUO ORDINE ~GM_)
@@ -41,7 +41,7 @@ La sezione <head> in un documento HTML contiene i metadati e le informazioni di 
 
    ``` 
    <br>
-* _<meta charset="UTF-8">_ Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
+*  <code style="color : blue">meta charset="UTF-8</code>  Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
 
 * _<meta name="viewport" content="width=device-width, initial-scale=1.0">_ Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
 
