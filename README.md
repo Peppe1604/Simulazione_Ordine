@@ -46,7 +46,7 @@ La sezione "**head**" in un documento HTML contiene i metadati e le informazioni
 
 * Foglio di Stile Locale: Collegamento al foglio di stile locale "style.css" per la formattazione della pagina.
 
-* Foglio di Stile Esterno (animate.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.
+* Foglio di Stile Esterno (animate.min.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.
 
 * Titolo della Pagina: "CREA IL TUO ORDINE ~GM" visualizzato nella barra del titolo del browser.
    
