@@ -40,14 +40,13 @@ La sezione <head> in un documento HTML contiene i metadati e le informazioni di 
 </head>
 
    ``` 
+* Codifica dei Caratteri: UTF-8 per supportare un vasto insieme di caratteri e lingue.
 
-* meta charset="UTF-8 Specifica che il documento è scritto in UTF-8, un formato di codifica dei caratteri che supporta un vasto insieme di caratteri e lingue.
+* Viewport Mobile: Ottimizza la visualizzazione su dispositivi mobili con una larghezza di viewport basata sul dispositivo e uno zoom iniziale di 1.0.
 
-* meta name="viewport" content="width=device-width, initial-scale=1.0"_ Ottimizza la visualizzazione su dispositivi mobili, impostando la larghezza del viewport in base alla larghezza del dispositivo e inizializzando il livello di zoom a 1.0.
+* Foglio di Stile Locale: Collegamento al foglio di stile locale "style.css" per la formattazione della pagina.
 
-* link rel="stylesheet" href="./style.css": Collega il tuo foglio di stile CSS locale denominato "style.css". Questo file dovrebbe contenere le regole di stile per la formattazione della tua pagina.
+* Foglio di Stile Esterno (animate.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.
 
-* link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css: Collega un foglio di stile CSS esterno fornito dalla libreria "animate.css". Questa libreria offre animazioni predefinite da applicare agli elementi HTML.
-
-* <title>CREA IL TUO ORDINE ~GM</title>: Definisce il titolo della pagina web che verrà visualizzato nella barra del titolo del browser.
+* Titolo della Pagina: "CREA IL TUO ORDINE ~GM" visualizzato nella barra del titolo del browser.
    
