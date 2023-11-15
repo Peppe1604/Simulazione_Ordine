@@ -113,7 +113,8 @@ Include un **input** di tipo numero per inserire il numero del tavolo, con etich
 Contiene un pulsante di conferma dell'ordine.
 <br><br>
 
-#### :bangbang: Riepilogo Ordine :bangbang:
+## ***riepilogo.php*** (_CREA IL TUO ORDINE ~GM_) :grinning:
+
 <br>
 
 ```PHP
@@ -127,10 +128,12 @@ $contator_bevand = 0;
 $contator_dolce = 0;
 ```
 <br>
+
 * Inizia la sessione PHP e inizializza i contatori per le diverse categorie di prodotti.:small_red_triangle:
+  
 <br>
 
-##### Controllo Hamburger :hamburger:
+#### Controllo Hamburger :hamburger:
 
 ```PHP
 // HAMBURGER
@@ -144,11 +147,14 @@ $contator_hamb = (8.99 * $quantita_hamburger_1) + (6.99 * $quantita_hamburger_2)
 
 ```
 <br>
+
 * Recupera le quantità selezionate per ciascun tipo di hamburger dalla sessione.:small_red_triangle:
+
 * Calcola il totale per gli hamburger in base alle quantità e ai prezzi.:small_red_triangle:
+
 <br>
 
-##### Controllo Bevande :tropical_drink:
+#### Controllo Bevande :tropical_drink:
 
 ```PHP
 // BEVANDE
@@ -162,11 +168,14 @@ $contator_bevand = (2.99 * $quantita_bevanda_1) + (2.99 * $quantita_bevanda_2) +
 
 ```
 <br>
+
 * Recupera le quantità selezionate per ciascun tipo di bevanda dalla sessione.:small_red_triangle:
+  
 * Calcola il totale per le bevande in base alle quantità e ai prezzi.:small_red_triangle:
+  
 <br>
 
-##### Controllo Dolci :cake:
+#### Controllo Dolci :cake:
 
 ```PHP
 // DOLCI
@@ -181,7 +190,10 @@ $contator_dolce = (8.99 * $quantita_dolce_1) + (15.99 * $quantita_dolce_2) + (10
 
 ```
 <br>
+
 * Recupera le quantità selezionate per ciascun tipo di dolce dalla sessione.:small_red_triangle:
+
 * Calcola il totale per i dolci in base alle quantità e ai prezzi.:small_red_triangle:
+  
 <br>
 
