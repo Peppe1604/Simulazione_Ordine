@@ -6,19 +6,9 @@ Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre 
 
 Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#spiegazione-codice).
 
-## Contributi
-
-Se desideri contribuire al progetto, consulta la sezione [Contributi](#contributi) per le linee guida e le istruzioni.
-
 ## Contatti
 - Instagram: _giuseppemaglione_
 - Email: giuseppemaglione1604@gmail.com
-
-## Licenza
-
-Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.
-
----
 
 ### Ritorna Sopra
 
@@ -26,5 +16,5 @@ Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 
 
 
-#spiegazione-codice
+##spiegazione-codice
 Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.Questo progetto è distribuito con la licenza [Nome della Licenza](LICENSE). Leggi il file LICENSE per ulteriori dettagli.
