@@ -19,7 +19,7 @@ Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 
 ### ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 
-La sezione <head> in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
+La sezione **head** in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
      <br>
      
    ```HTML
