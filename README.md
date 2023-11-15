@@ -17,9 +17,9 @@ Per tornare all'inizio di questo documento, [clicca qui](#ritorna-sopra).
 ## Spiegazione-del-Codice
 
 
-### ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
-
-La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella <head>.
+## ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
+##### HEAD :bangbang:
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
      <br>
      
    ```HTML
@@ -50,8 +50,8 @@ La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un do
 
 * Titolo della Pagina: "CREA IL TUO ORDINE ~GM" visualizzato nella barra del titolo del browser.
 <br><br>
-
-La sezione :heavy_exclamation_mark: "body" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione <body>:
+##### BODY :bangbang:
+La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione "**body**":
 <br>
 
 ```HTML
