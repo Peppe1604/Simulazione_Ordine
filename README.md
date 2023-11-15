@@ -47,7 +47,7 @@ La sezione <head> in un documento HTML contiene i metadati e le informazioni di 
 
 * <link rel="stylesheet" href="./style.css">: Collega il tuo foglio di stile CSS locale denominato "style.css". Questo file dovrebbe contenere le regole di stile per la formattazione della tua pagina.
 
-* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">: Collega un foglio di stile CSS esterno fornito dalla libreria "animate.css". Questa libreria offre animazioni predefinite da applicare agli elementi HTML.
+* "<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">": Collega un foglio di stile CSS esterno fornito dalla libreria "animate.css". Questa libreria offre animazioni predefinite da applicare agli elementi HTML.
 
 * <title>CREA IL TUO ORDINE ~GM</title>: Definisce il titolo della pagina web che verrà visualizzato nella barra del titolo del browser.
    
