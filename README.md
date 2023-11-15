@@ -93,6 +93,7 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
         <input type="submit" value="Conferma ordine">
     </form>
 </body>
+</html>
    ``` 
 * Sezione del Titolo: Utilizza una div con classe ***"title"*** per raggruppare il titolo principale.
 Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria "animate.css", è **"CREA IL TUO ORDINE"**.
@@ -109,4 +110,5 @@ L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di
 
 * Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
 Include un **input** di tipo numero per inserire il numero del tavolo, con etichetta associata.
-Contiene un pulsante di conferma dell'ordine.
+Contiene un pulsante di conferma dell'ordine.<br>
+si chiude tutto con il tag ***</html>***
