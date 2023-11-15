@@ -96,7 +96,7 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
    ``` 
 * Sezione del Titolo: Utilizza una div con classe ***"title"*** per raggruppare il titolo principale.
 Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria "animate.css", è **"CREA IL TUO ORDINE"**.
-
+:small_red_triangle::small_red_triangle:
 * Sezione delle **Card** (Categorie di Prodotti): Una div con classe *"card-container"* contiene diverse card per le categorie di prodotti.
  * Ogni categoria *(Hamburger, Bevande, Dessert)* è rappresentata da una div con classe *"card"* e un'animazione di entrata *(fadeInLeft, fadeInRight, fadeInDown)*.
 Ogni card contiene:
@@ -107,6 +107,6 @@ Ogni card contiene:
 * Sezione del Riepilogo tramite ***iframe***: Utilizza un iframe per incorporare il contenuto della pagina *"riepilogo.php"*.
 L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di 500px.
 
-*Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
+* Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
 Include un **input** di tipo numero per inserire il numero del tavolo, con etichetta associata.
 Contiene un pulsante di conferma dell'ordine.
