@@ -14,7 +14,6 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 
 
 ## ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
-<br>
 #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
      <br>
@@ -95,4 +94,19 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
     </form>
 </body>
    ``` 
-   
+* Sezione del Titolo: Utilizza una div con classe "title" per raggruppare il titolo principale.
+Il titolo principale, animato con l'effetto "lightSpeedInRight" della libreria "animate.css", è "CREA IL TUO ORDINE".
+
+* Sezione delle Card (Categorie di Prodotti): Una div con classe "card-container" contiene diverse card per le categorie di prodotti.
+ * Ogni categoria (Hamburger, Bevande, Dessert) è rappresentata da una div con classe "card" e un'animazione di entrata (fadeInLeft, fadeInRight, fadeInDown).
+Ogni card contiene:
+  * Un'immagine rappresentativa della categoria.
+  * Un titolo identificativo della categoria (Hamburger, Bevande, Dessert).
+  * Un link che reindirizza a una pagina specifica per quella categoria (es. "./HAMBURGER/index.html").
+
+* Sezione del Riepilogo tramite iframe: Utilizza un iframe per incorporare il contenuto della pagina "riepilogo.php".
+L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di 500px.
+
+*Form per la Conferma dell'Ordine: Utilizza un form con metodo di invio "post" e azione "conferma_ordine.php" per gestire la conferma dell'ordine.
+Include un input di tipo numero per inserire il numero del tavolo, con etichetta associata.
+Contiene un pulsante di conferma dell'ordine.
