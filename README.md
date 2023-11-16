@@ -282,7 +282,9 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
  <br>
  
  ## ***index.html*** (_SCELTA BEVANDE ~GM<_) :potable_water:
- 
+ #### :bangbang: HEAD :bangbang:
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
+
   <br>
   
 ```HTML
