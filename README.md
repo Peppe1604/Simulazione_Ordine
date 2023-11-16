@@ -199,4 +199,8 @@ $contator_dolce = (8.99 * $quantita_dolce_1) + (15.99 * $quantita_dolce_2) + (10
 
 a funzione ***isset*** in PHP viene utilizzata per verificare se una variabile è stata inizializzata e se il suo valore non è nullo. In altre parole, restituisce *true* se la variabile esiste ed è diversa da null, altrimenti restituisce *false*.
 <br>
+   ```PHP
+    $quantita_hamburger_1 = isset($_SESSION["quantita_hamburger_1"]) ? $_SESSION["quantita_hamburger_1"] : 0;
+   ``` 
+<br>
 Quindi, la riga completa assegna a ***$quantita_hamburger_1*** il valore della variabile di sessione *$_SESSION["quantita_hamburger_1"]* se questa esiste ed è diversa da null. In caso contrario, viene assegnato il valore **0**.
