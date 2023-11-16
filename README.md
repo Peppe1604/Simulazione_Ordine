@@ -361,3 +361,4 @@ Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "
 * **Ogni card contiene:** Un'immagine rappresentativa della bevanda. Un titolo identificativo della bevanda *(es. "Acqua Naturale 1L")*. Il prezzo della bevanda. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
   
 * **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.:small_red_triangle:
+<br><br>
