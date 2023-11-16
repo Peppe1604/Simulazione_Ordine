@@ -271,19 +271,19 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
    ```
 <br>
 
-* Verifica della Richiesta:
+* **Verifica della Richiesta:**
 Si controlla se i dati del modulo sono stati inviati al server attraverso una richiesta di tipo POST.:small_red_triangle:
 
-* Recupero del Numero del Tavolo:
+* **Recupero del Numero del Tavolo:**
  Se la richiesta è di tipo POST, il codice estrae il numero del tavolo dai dati inviati tramite il modulo.:small_red_triangle:
 
-* Verifica del Totale dell'Ordine:
+* **Verifica del Totale dell'Ordine:**
 Viene verificato se l'importo totale dell'ordine è diverso da zero, segnalando la presenza di almeno un prodotto selezionato.:small_red_triangle:
 
-* Messaggi di Conferma o Avviso:
+* **Messaggi di Conferma o Avviso:**
 Se l'importo totale è diverso da zero, viene mostrato un messaggio di *conferma* dell'ordine con il numero del tavolo, accompagnato da istruzioni per procedere al pagamento in cassa.:small_red_triangle:
 Nel caso in cui l'importo totale sia zero, viene visualizzato un messaggio di avviso indicando che l'ordine non è stato confermato e suggerendo di aggiungere prodotti.:small_red_triangle:
 
-* Gestione degli Errori:
+* **Gestione degli Errori:**
 In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.:small_red_triangle:
 
