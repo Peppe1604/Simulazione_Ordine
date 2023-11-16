@@ -210,6 +210,7 @@ Per ogni tipo di variabile dedicata ai prodotti viene utilizzata la funzione ***
 Quindi, la riga completa assegna a ***$quantita_hamburger_1*** il valore della variabile di sessione *$_SESSION["quantita_hamburger_1"]* se questa esiste ed è diversa da null. In caso contrario, viene assegnato il valore **0**.:small_red_triangle:
 
 <br>
+
 #### Controllo Stampe Dei Prodotti :inbox_tray:
 
 ```PHP
@@ -227,8 +228,9 @@ if ($quantita_dolce_1 >= 1) {
 //etc..
    ```
 <br>
+
 Questo blocco di codice controlla se le variabili $quantita_hamburger_1, $quantita_bevanda_1 e $quantita_dolce_1  sono maggiori o uguale a 1.
-Se la condizione è vera, viene visualizzato un elemento <h2> che mostra la quantità del prodotto usando il valore delle variabile; 
+Se la condizione è vera, viene visualizzato un elemento **h2** che mostra la quantità del prodotto usando il valore delle variabile; 
 per operare con ogni prodotto basta semplicemente ripetere la stessa operazione per ogni variabile.:small_red_triangle:
 
 
