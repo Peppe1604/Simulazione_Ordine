@@ -10,8 +10,7 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 - Instagram: _ giuseppemaglione _ *(senza spazio tra i trattini)*
 - Email: giuseppemaglione1604@gmail.com
 
-## Spiegazione-del-Codice
-
+#Spiegazione-del-Codice
 
 ## ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 #### :bangbang: HEAD :bangbang:
@@ -214,7 +213,7 @@ Quindi, la riga completa assegna a ***$quantita_hamburger_1*** il valore della v
 #### Controllo Stampe Dei Prodotti :inbox_tray:
 
 ```PHP
-  if ($quantita_hamburger_1 >= 1) {
+if ($quantita_hamburger_1 >= 1) {
             echo "<h2>Quantità Hamburger del Mese: $quantita_hamburger_1</h2>";
         }
 //etc..
@@ -258,7 +257,6 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 <br>
 
 ```PHP
-<?php
         // Verifica se la richiesta è di tipo POST e se è stato inviato il campo "tableNumber"
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["tableNumber"])) {
             $tableNumber = $_POST["tableNumber"];
