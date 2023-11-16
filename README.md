@@ -95,13 +95,17 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
 </body>
    ``` 
 * Sezione del Titolo: Utilizza una div con classe ***"title"*** per raggruppare il titolo principale.
-Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria "animate.css", è **"CREA IL TUO ORDINE"**.
-:small_red_triangle:
+Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria "animate.css", è **"CREA IL TUO ORDINE"**.:small_red_triangle:
+
 * Sezione delle **Card** (Categorie di Prodotti): Una div con classe *"card-container"* contiene diverse card per le categorie di prodotti.
-* Ogni categoria *(Hamburger, Bevande, Dessert)* è rappresentata da una div con classe *"card"* e un'animazione di entrata *(fadeInLeft, fadeInRight, fadeInDown)*.:small_red_triangle:<br>
+  
+* Ogni categoria *(Hamburger, Bevande, Dessert)* è rappresentata da una div con classe *"card"* e un'animazione di entrata *(fadeInLeft, fadeInRight, fadeInDown)*.:small_red_triangle:
+<br>
 ##### Ogni card contiene:
 * Un'**immagine rappresentativa** della categoria.:small_red_triangle:
+  
 * Un **titolo** identificativo della categoria** (Hamburger, Bevande, Dessert).:small_red_triangle:
+  
 * Un **link** che reindirizza a una pagina specifica per quella categoria (es. "./HAMBURGER/index.html").:small_red_triangle:
 
 * Sezione del Riepilogo tramite ***iframe***: Utilizza un iframe per incorporare il contenuto della pagina *"riepilogo.php"*.
