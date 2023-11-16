@@ -407,3 +407,128 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 * **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
 
  * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
+   
+   <br>
+   
+## ***index.html*** (_SCELTA DESSERT ~GM_) :cake:
+ #### :bangbang: HEAD :bangbang:
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
+
+  <br>
+  
+```HTML
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile -->
+    <link rel="stylesheet" href="./style_dolci.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Titolo della pagina -->
+    <title>SCELTA DESSERT ~GM</title>
+</head>
+
+   ```
+<br>
+
+* Codifica dei Caratteri: UTF-8 per supportare un vasto insieme di caratteri e lingue.:small_red_triangle:
+
+* Viewport Mobile: Ottimizza la visualizzazione su dispositivi mobili con una larghezza di viewport basata sul dispositivo e uno zoom iniziale di 1.0.:small_red_triangle:
+
+* Foglio di Stile Locale: Collegamento al foglio di stile locale "style_dolci.css" per la formattazione della pagina.:small_red_triangle:
+
+* Foglio di Stile Esterno (animate.min.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.:small_red_triangle:
+
+* Titolo della Pagina: "SCELTA DESSERT ~GM" visualizzato nella barra del titolo del browser.
+<br><br>
+#### :bangbang: BODY :bangbang:
+La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione "**body**":
+<br>
+
+```HTML
+<body>
+    <!-- Sezione del titolo animato -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">SCEGLI IL DOLCE</h1>
+    </div>
+
+    <!-- Form per la selezione dei dolci -->
+    <form action="./process_dolci.php" method="post">
+        <!-- Card per la prima torta -->
+        <div class="dolci-card animate__animated animate__fadeInLeft ">
+            <img src="./tort_1.jpg" alt="Dolce 1">
+            <h2>Torta al Cioccolato</h2>
+            <p>Prezzo: €8.99</p>
+            <label for="quantita_dolce_1">Quantità:</label>
+            <input type="number" name="quantita_dolce_1" id="quantita_dolce_1" min="0" value="0">
+        </div>
+
+        <!-- Card per la seconda torta -->
+        <div class="dolci-card animate__animated animate__fadeInRight ">
+            <img src="./tort_2.jpg" alt="Dolce 2">
+            <h2>Torta alle Fragole</h2>
+            <p>Prezzo: €15.99</p>
+            <label for="quantita_dolce_2">Quantità:</label>
+            <input type="number" name="quantita_dolce_2" id="quantita_dolce_2" min="0" value="0">
+        </div>
+<!-- etc... -->
+        <!-- Pulsante di submit per procedere -->
+        <input type="submit" value="AVANTI" style="font-size: 60px;" class=" animate__animated animate__bounceInUp">
+    </form>
+</body>
+   ``` 
+<br>
+
+* Una div con classe *"title"* racchiude il titolo principale "SCEGLI IL DOLCE".:small_red_triangle:
+  
+* Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".:small_red_triangle:
+  
+* **Form per la Selezione dei dolci:** Utilizza un form con metodo "post" e azione *".process_dolci.php"* per elaborare la selezione delle bevande.
+Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "dolci-card". Le bevande sono animate con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.:small_red_triangle:
+
+* **Ogni card contiene:** Un'immagine rappresentativa del dolce. Un titolo identificativo del dolce *(es. "Torta alle Fragole")*. Il prezzo dei dolci. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
+  
+* **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.:small_red_triangle:
+<br>
+
+## ***process_dolci.php***  (_SCELTA DESSERT ~GM_) :cake:
+
+<br>
+
+```PHP
+<?php
+// Inizializza la sessione
+session_start();
+
+// Verifica se la richiesta è di tipo POST
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Controlla se le variabili sono impostate e sono numeri interi positivi
+    $quantita_dolce_1 = isset($_POST["quantita_dolce_1"]) ? intval($_POST["quantita_dolce_1"]) : 0;
+    $quantita_dolce_2 = isset($_POST["quantita_dolce_2"]) ? intval($_POST["quantita_dolce_2"]) : 0;
+    $quantita_dolce_3 = isset($_POST["quantita_dolce_3"]) ? intval($_POST["quantita_dolce_3"]) : 0;
+    $quantita_dolce_4 = isset($_POST["quantita_dolce_4"]) ? intval($_POST["quantita_dolce_4"]) : 0;
+
+    // Memorizza le quantità nelle sessioni
+    $_SESSION["quantita_dolce_1"] = $quantita_dolce_1;
+    $_SESSION["quantita_dolce_2"] = $quantita_dolce_2;
+    $_SESSION["quantita_dolce_3"] = $quantita_dolce_3;
+    $_SESSION["quantita_dolce_4"] = $quantita_dolce_4;
+
+    // Reindirizza l'utente alla pagina principale
+    header("Location: ../index.html");
+    exit();
+}
+?>
+
+   ```
+<br>
+
+* La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
+
+* **Recupero dei dati dei dolci:** Se la richiesta è di tipo *POST*, nel codice si inizializzano delle variabile per controllare la quantità dei diversi dolci.:small_red_triangle:
+  
+* **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
+
+ * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
