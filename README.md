@@ -101,6 +101,7 @@ Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria
   
 * Ogni categoria *(Hamburger, Bevande, Dessert)* è rappresentata da una div con classe *"card"* e un'animazione di entrata *(fadeInLeft, fadeInRight, fadeInDown)*.:small_red_triangle:
 <br>
+
 ##### Ogni card contiene:
 * Un'**immagine rappresentativa** della categoria.:small_red_triangle:
   
