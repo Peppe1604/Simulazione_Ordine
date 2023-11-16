@@ -10,7 +10,7 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 - Instagram: _ giuseppemaglione _ *(senza spazio tra i trattini)*
 - Email: giuseppemaglione1604@gmail.com
 
-#Spiegazione-del-Codice
+# Spiegazione-del-Codice
 
 ## ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 #### :bangbang: HEAD :bangbang:
