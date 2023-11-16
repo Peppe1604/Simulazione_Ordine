@@ -111,7 +111,7 @@ L'iframe ha larghezza al 100% della larghezza della pagina e un'altezza fissa di
 * Form per la ***Conferma dell'Ordine***: Utilizza un form con metodo di invio *"post"* e azione *"conferma_ordine.php"* per gestire la conferma dell'ordine.
 Include un **input** di tipo numero per inserire il numero del tavolo, con etichetta associata.
 Contiene un pulsante di conferma dell'ordine.
-<br><br>
+<br>
 
 ## ***riepilogo.php*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 
@@ -232,5 +232,26 @@ if ($quantita_dolce_1 >= 1) {
 Questo blocco di codice controlla se le variabili $quantita_hamburger_1, $quantita_bevanda_1 e $quantita_dolce_1  sono maggiori o uguale a 1.
 Se la condizione è vera, viene visualizzato un elemento **h2** che mostra la quantità del prodotto usando il valore delle variabile; 
 per operare con ogni prodotto basta semplicemente ripetere la stessa operazione per ogni variabile.:small_red_triangle:
+<br>
+
+## ***conferma_ordine.php*** (_CONFERMA ORDINE ~GM_) :grinning:
+
+<br>
 
 
+```PHP
+<?php
+// Inizializzazione della sessione
+session_start();
+
+// Recupero del totale dalla sessione, se presente
+if (isset($_SESSION["total"])) {
+    $total = $_SESSION["total"];
+} 
+?>
+   ```
+<br>
+
+La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
+<br><br>
+questo blocco di codice controlla se esiste una variabile di sessione chiamata *"total"* e, se presente, recupera il suo valore nella variabile **$total**. Questo è utile per mantenere il totale dell'ordine tra le varie pagine del sito web, consentendo agli utenti di confermare l'ordine e visualizzare il totale corretto.:small_red_triangle:
