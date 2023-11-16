@@ -396,9 +396,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <br>
 
 * La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
-<br><br>
+
 * **Recupero dei dati delle bevande:** Se la richiesta è di tipo POST, nel codice si inizializzano delle variabile per controllare la quantità delle diverse bevande.:small_red_triangle:
-  <br>
-  * **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
- <br>
+  
+* **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
+
  * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
