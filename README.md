@@ -238,7 +238,6 @@ per operare con ogni prodotto basta semplicemente ripetere la stessa operazione 
 
 <br>
 
-
 ```PHP
 <?php
 // Inizializzazione della sessione
@@ -255,3 +254,37 @@ if (isset($_SESSION["total"])) {
 La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
 <br><br>
 questo blocco di codice controlla se esiste una variabile di sessione chiamata *"total"* e, se presente, recupera il suo valore nella variabile **$total**. Questo è utile per mantenere il totale dell'ordine tra le varie pagine del sito web, consentendo agli utenti di confermare l'ordine e visualizzare il totale corretto.:small_red_triangle:
+
+<br>
+
+```PHP
+<?php
+        // Verifica se la richiesta è di tipo POST e se è stato inviato il campo "tableNumber"
+        if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["tableNumber"])) {
+            $tableNumber = $_POST["tableNumber"];
+            // Verifica se il totale è diverso da zero
+            if ($total != 0) {
+                // Messaggio di conferma dell'ordine
+                echo '<p>Ordine confermato per il tavolo numero ' . $tableNumber . '</p>';
+                echo '<p style="text-decoration:underline; color: green; font-weight: bold;">Si prega di procedere al pagamento in cassa.</p>';
+            }
+   ```
+<br>
+
+*Verifica della Richiesta:
+
+ * Si controlla se i dati del modulo sono stati inviati al server attraverso una richiesta di tipo POST.
+* Recupero del Numero del Tavolo:
+
+* Se la richiesta è di tipo POST, il codice estrae il numero del tavolo dai dati inviati tramite il modulo.
+* Verifica del Totale dell'Ordine:
+
+* Viene verificato se l'importo totale dell'ordine è diverso da zero, segnalando la presenza di almeno un prodotto selezionato.
+* Messaggi di Conferma o Avviso:
+
+* Se l'importo totale è diverso da zero, viene mostrato un messaggio di conferma dell'ordine con il numero del tavolo, accompagnato da istruzioni per procedere al pagamento in cassa.
+Nel caso in cui l'importo totale sia zero, viene visualizzato un messaggio di avviso indicando che l'ordine non è stato confermato e suggerendo di aggiungere prodotti.
+* Gestione degli Errori:
+
+* In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.
+
