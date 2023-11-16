@@ -351,9 +351,13 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
    ``` 
 <br>
 
-* Una div con classe *"title"* racchiude il titolo principale "SCEGLI LA BEVANDA".
-* Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".
+* Una div con classe *"title"* racchiude il titolo principale "SCEGLI LA BEVANDA".:small_red_triangle:
+  
+* Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".:small_red_triangle:
+  
 * **Form per la Selezione delle Bevande:** Utilizza un form con metodo "post" e azione *"./process_bevande.php"* per elaborare la selezione delle bevande.
-Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "bevande-card". Le bevande sono animate con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.
-* **Ogni card contiene:** Un'immagine rappresentativa della bevanda. Un titolo identificativo della bevanda *(es. "Acqua Naturale 1L")*. Il prezzo della bevanda. Un campo di input numerico per specificare la quantità desiderata.
-* **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.
+Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "bevande-card". Le bevande sono animate con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.:small_red_triangle:
+
+* **Ogni card contiene:** Un'immagine rappresentativa della bevanda. Un titolo identificativo della bevanda *(es. "Acqua Naturale 1L")*. Il prezzo della bevanda. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
+  
+* **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.:small_red_triangle:
