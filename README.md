@@ -7,7 +7,7 @@ Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre 
 Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#Spiegazione-del-Codice).
 
 ## Contatti :page_facing_up:
-- Instagram: _giuseppemaglione_
+- Instagram: _ giuseppemaglione _ *(senza spazio tra i trattini)*
 - Email: giuseppemaglione1604@gmail.com
 
 ## Spiegazione-del-Codice
@@ -197,3 +197,6 @@ $contator_dolce = (8.99 * $quantita_dolce_1) + (15.99 * $quantita_dolce_2) + (10
   
 <br>
 
+a funzione ***isset*** in PHP viene utilizzata per verificare se una variabile è stata inizializzata e se il suo valore non è nullo. In altre parole, restituisce *true* se la variabile esiste ed è diversa da null, altrimenti restituisce *false*.
+<br>
+Quindi, la riga completa assegna a ***$quantita_hamburger_1*** il valore della variabile di sessione *$_SESSION["quantita_hamburger_1"]* se questa esiste ed è diversa da null. In caso contrario, viene assegnato il valore **0**.
