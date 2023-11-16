@@ -280,7 +280,7 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 * **Gestione degli Errori:** In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.:small_red_triangle:
  <br>
  
- ## ***index.html*** (_SCELTA BEVANDE ~GM<_) :potable_water:
+ ## ***index.html*** (_SCELTA BEVANDE ~GM_) :potable_water:
  #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
@@ -361,4 +361,44 @@ Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "
 * **Ogni card contiene:** Un'immagine rappresentativa della bevanda. Un titolo identificativo della bevanda *(es. "Acqua Naturale 1L")*. Il prezzo della bevanda. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
   
 * **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.:small_red_triangle:
+<br>
+
+## ***process_bevande.php*** (_SCELTA BEVANDE ~GM_) :grinning:
+
+<br>
+
+```PHP
+<?php
+// Inizializza la sessione
+session_start();
+
+// Verifica se la richiesta è di tipo POST
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Recupera le quantità di bevande dal modulo
+    $quantita_bevanda_1 = isset($_POST["quantita_bevanda_1"]) ? $_POST["quantita_bevanda_1"] : 0;
+    $quantita_bevanda_2 = isset($_POST["quantita_bevanda_2"]) ? $_POST["quantita_bevanda_2"] : 0;
+    $quantita_bevanda_3 = isset($_POST["quantita_bevanda_3"]) ? $_POST["quantita_bevanda_3"] : 0;
+    $quantita_bevanda_4 = isset($_POST["quantita_bevanda_4"]) ? $_POST["quantita_bevanda_4"] : 0;
+
+    // Memorizza le quantità nelle sessioni
+    $_SESSION["quantita_bevanda_1"] = $quantita_bevanda_1;
+    $_SESSION["quantita_bevanda_2"] = $quantita_bevanda_2;
+    $_SESSION["quantita_bevanda_3"] = $quantita_bevanda_3;
+    $_SESSION["quantita_bevanda_4"] = $quantita_bevanda_4;
+
+    // Reindirizza l'utente alla pagina principale
+    header("Location: ../index.html");
+    exit();
+}
+?>
+
+   ```
+<br>
+
+* La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
 <br><br>
+* **Recupero dei dati delle bevande:** Se la richiesta è di tipo POST, nel codice si inizializzano delle variabile per controllare la quantità delle diverse bevande.:small_red_triangle:
+  <br>
+  * **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
+ <br>
+ * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
