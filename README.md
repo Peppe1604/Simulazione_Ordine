@@ -280,7 +280,9 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 
 * **Gestione degli Errori:** In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.:small_red_triangle:
  <br>
+ 
  ## ***index.html*** (_SCELTA BEVANDE ~GM<_) :potable_water:
+ 
   <br>
   
 ```HTML
