@@ -93,7 +93,6 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
         <input type="submit" value="Conferma ordine">
     </form>
 </body>
-</html>
    ``` 
 * Sezione del Titolo: Utilizza una div con classe ***"title"*** per raggruppare il titolo principale.
 Il titolo principale, animato con l'effetto *"lightSpeedInRight"* della libreria "animate.css", è **"CREA IL TUO ORDINE"**.
@@ -349,6 +348,12 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
         <input type="submit" value="AVANTI" style="font-size: 60px;" class=" animate__animated animate__bounceInUp">
     </form>
 </body>
-
-</html>
    ``` 
+<br>
+
+* Una div con classe *"title"* racchiude il titolo principale "SCEGLI LA BEVANDA".
+* Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".
+* **Form per la Selezione delle Bevande:** Utilizza un form con metodo "post" e azione *"./process_bevande.php"* per elaborare la selezione delle bevande.
+Cards per le Bevande: Ogni bevanda è presentata tramite una "card" con classe "bevande-card". Le bevande sono animate con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.
+* **Ogni card contiene:** Un'immagine rappresentativa della bevanda. Un titolo identificativo della bevanda *(es. "Acqua Naturale 1L")*. Il prezzo della bevanda. Un campo di input numerico per specificare la quantità desiderata.
+* **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.
