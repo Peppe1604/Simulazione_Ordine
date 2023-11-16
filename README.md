@@ -1,4 +1,4 @@
-<h3 align="center" > :diamond_shape_with_a_dot_inside: Simulazione Ordine :diamond_shape_with_a_dot_inside: </h3>
+<h1 align="center" > :diamond_shape_with_a_dot_inside: Simulazione Ordine :diamond_shape_with_a_dot_inside: </h1>
 
 Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre una piattaforma di simulazione interattiva per la creazione di ordini personalizzati su un sito web. L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati uno strumento flessibile e intuitivo per comprendere il processo di ordinazione online.
 
