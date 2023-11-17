@@ -7,7 +7,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 | Command | Description |
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
-| [Scelta delle bevande](#index.html(SCELTA-BEVANDE)) | Show file differences that **haven't been** staged |
+| [Scelta delle bevande](#index.html(SCELTA-BEVANDE)) | Sezione della spiegazione del codice che gestisce le bevande |
 | `git diff` | Show file differences that **haven't been** staged |
 ## Descrizione :loudspeaker:
 
@@ -17,7 +17,7 @@ Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simula
 - Instagram: _ giuseppemaglione _ *(senza spazio tra i trattini)*
 - Email: giuseppemaglione1604@gmail.com
 
-# Spiegazione-del-Codice
+# Spiegazione del Codice
 
 ## ***index.html*** (_CREA IL TUO ORDINE ~GM_) :grinning:
 #### :bangbang: HEAD :bangbang:
