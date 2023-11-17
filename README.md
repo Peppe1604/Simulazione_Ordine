@@ -6,7 +6,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 ## Indice
 | Command | Description |
 | --- | --- |
-| `[Spiegazione Codice](#Spiegazione-del-Codice)` | Sezione della spiegazione del codice |
+| [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
 | `git diff` | Show file differences that **haven't been** staged |
 | `git diff` | Show file differences that **haven't been** staged |
 ## Descrizione :loudspeaker:
