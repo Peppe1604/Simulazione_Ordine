@@ -7,7 +7,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 | Command | Description |
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
-| [Scelta delle bevande](#index.html(SCELTA-BEVANDE)) | Sezione della spiegazione del codice che gestisce le bevande |
+| [Scelta delle bevande](Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
 | `git diff` | Show file differences that **haven't been** staged |
 ## Descrizione :loudspeaker:
 
@@ -292,7 +292,7 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 * **Gestione degli Errori:** In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.:small_red_triangle:
  <br>
  
- # index.html(SCELTA-BEVANDE)
+ # index.html(SCELTA-BEVANDE)<h4 id="Scelta-bevande">index.html (SCELTA-BEVANDE)</h4>
  #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
