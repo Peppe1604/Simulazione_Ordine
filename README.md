@@ -3,12 +3,14 @@
 Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre una piattaforma di simulazione interattiva per la creazione di ordini personalizzati su un sito web. 
 L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati uno strumento flessibile e intuitivo per comprendere il processo di ordinazione online.
 
-## Indice
-| Command | Description |
+<h1 align="center" id="indice-top"> Indice Argomenti :mag_right:</h1>
+<br>
+| Titotlo | Descrizione |
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
-| [Scelta delle bevande](#Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
-| [Scelta dei dessert](#Scelta-dessert) | Sezione della spiegazione del codice che gestisce i dessert |
+| [Scelta Delle Bevande](#Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
+| [Scelta Dei Dessert](#Scelta-dessert) | Sezione della spiegazione del codice che gestisce i dessert |
+
 ## Descrizione :loudspeaker:
 
 Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#Spiegazione-del-Codice).
