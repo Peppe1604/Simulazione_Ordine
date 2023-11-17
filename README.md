@@ -292,7 +292,7 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 * **Gestione degli Errori:** In presenza di una richiesta non di tipo POST o se il numero del tavolo non è stato inviato, viene segnalato un messaggio di errore.:small_red_triangle:
  <br>
  
- # ***index.html(SCELTA-BEVANDE)*** :potable_water:
+ # index.html(SCELTA-BEVANDE)
  #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
