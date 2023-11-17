@@ -5,6 +5,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 
 <h1 align="center" id="indice-top"> Indice Argomenti :mag_right:</h1>
 <br>
+
 | Titotlo | Descrizione |
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
