@@ -8,7 +8,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
 | [Scelta delle bevande](#Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
-| `git diff` | Show file differences that **haven't been** staged |
+| [Scelta dei dessert](#Scelta-dessert) | Sezione della spiegazione del codice che gestisce i dessert |
 ## Descrizione :loudspeaker:
 
 Il progetto Simulazione Ordine è progettato per offrire un'esperienza di simulazione avanzata e coinvolgente. Per ulteriori dettagli sulla sua implementazione e le funzionalità offerte, consulta la sezione [Spiegazione Codice](#Spiegazione-del-Codice).
@@ -295,7 +295,6 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
 <h2 id="Scelta-bevande">index.html (SCELTA-BEVANDE)</h2>
 
 <br>
-
 #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
@@ -420,7 +419,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    <br>
    
-## ***index.html*** (_SCELTA DESSERT ~GM_) :cake:
+<h2 id="Scelta-dessert">index.html SCELTA DESSERT ~GM</h2> :cake:
+<br>
  #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
