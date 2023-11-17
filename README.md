@@ -4,30 +4,17 @@ Benvenuto nel repository del progetto Simulazione Ordine. Questo progetto offre 
 L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati uno strumento flessibile e intuitivo per comprendere il processo di ordinazione online.
 
 <h1 align="center" id="indice-top"> Indice Argomenti :mag_right:</h1>
-<br>
 
-<table style="margin: auto;">
-    <thead>
-        <tr>
-            <th>Titolo</th>
-            <th>Descrizione</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><a href="#Spiegazione-del-Codice">Spiegazione Codice</a></td>
-            <td>Sezione della spiegazione del codice</td>
-        </tr>
-        <tr>
-            <td><a href="#Scelta-bevande">Scelta Delle Bevande</a></td>
-            <td>Sezione della spiegazione del codice che gestisce le bevande</td>
-        </tr>
-        <tr>
-            <td><a href="#Scelta-dessert">Scelta Dei Dessert</a></td>
-            <td>Sezione della spiegazione del codice che gestisce i dessert</td>
-        </tr>
-    </tbody>
-</table>
+<div align="center">
+
+| Titolo                                | Descrizione                                           |
+| ------------------------------------- | ----------------------------------------------------- |
+| [Spiegazione Codice](#Spiegazione-del-Codice)     | Sezione della spiegazione del codice                   |
+| [Scelta Delle Bevande](#Scelta-bevande)          | Sezione della spiegazione del codice che gestisce le bevande |
+| [Scelta Dei Dessert](#Scelta-dessert)            | Sezione della spiegazione del codice che gestisce i dessert   |
+
+</div>
+
 
 ## Descrizione :loudspeaker:
 
