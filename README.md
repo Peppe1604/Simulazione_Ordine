@@ -423,8 +423,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    <br>
    
 <h2 id="Scelta-dessert">index.html <i>(SCELTA DESSERT ~GM)</i> :cake: </h2>
-
 <br>
+
 #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
