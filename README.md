@@ -6,11 +6,28 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 <h1 align="center" id="indice-top"> Indice Argomenti :mag_right:</h1>
 <br>
 
-| Titotlo | Descrizione |
-| --- | --- |
-| [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
-| [Scelta Delle Bevande](#Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
-| [Scelta Dei Dessert](#Scelta-dessert) | Sezione della spiegazione del codice che gestisce i dessert |
+<table style="margin: auto;">
+    <thead>
+        <tr>
+            <th>Titolo</th>
+            <th>Descrizione</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="#Spiegazione-del-Codice">Spiegazione Codice</a></td>
+            <td>Sezione della spiegazione del codice</td>
+        </tr>
+        <tr>
+            <td><a href="#Scelta-bevande">Scelta Delle Bevande</a></td>
+            <td>Sezione della spiegazione del codice che gestisce le bevande</td>
+        </tr>
+        <tr>
+            <td><a href="#Scelta-dessert">Scelta Dei Dessert</a></td>
+            <td>Sezione della spiegazione del codice che gestisce i dessert</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Descrizione :loudspeaker:
 
