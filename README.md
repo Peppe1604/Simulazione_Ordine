@@ -300,7 +300,7 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
  <br>
  
 
-<h2 id="Scelta-bevande"> index.html <i>(SCELTA-BEVANDE ~GM)</i>  :tropical_drink: </h2> <h4><a href="#indice-top">Torna all'indice</a></h4>
+<h2 id="Scelta-bevande"> index.html <i>(SCELTA-BEVANDE ~GM)</i>  :tropical_drink: <a href="#indice-top">Torna all'indice</a></h2>
 <br>
 
 #### :bangbang: HEAD :bangbang:
