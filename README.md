@@ -300,9 +300,10 @@ questo blocco di codice controlla se esiste una variabile di sessione chiamata *
  <br>
  
 
-<h2 id="Scelta-bevande"> index.html <i>(SCELTA-BEVANDE ~GM)</i>  :tropical_drink: </h2> <a href="Scelta-dessert">Scelta Dei Dessert</a>
-
+<h2 id="Scelta-bevande"> index.html <i>(SCELTA-BEVANDE ~GM)</i>  :tropical_drink: </h2> 
+<h4> <a href="indice-top">Sali all'indice</a> </h4>
 <br>
+
 #### :bangbang: HEAD :bangbang:
 La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
 
