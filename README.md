@@ -7,7 +7,7 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 | Command | Description |
 | --- | --- |
 | [Spiegazione Codice](#Spiegazione-del-Codice) | Sezione della spiegazione del codice |
-| [Scelta delle bevande](Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
+| [Scelta delle bevande](#Scelta-bevande) | Sezione della spiegazione del codice che gestisce le bevande |
 | `git diff` | Show file differences that **haven't been** staged |
 ## Descrizione :loudspeaker:
 
