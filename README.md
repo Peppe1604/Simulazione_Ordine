@@ -633,8 +633,9 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
   
 * Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".:small_red_triangle:
   
-* **Form per la Selezione degli Hamburger:** Utilizza un form con metodo "post" e azione *"./process_hamburger.php"* per elaborare la selezione degli Hamburger.
-Cards per degli Hamburger: Ogni bevanda è presentata tramite una "card" con classe "hamburger-card". Gli hamburger sono animati con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.:small_red_triangle:
+* **Form per la Selezione degli Hamburger:** Utilizza un form con metodo "post" e azione *"./process_hamburger.php"* per elaborare la selezione degli Hamburger.:small_red_triangle:
+  
+**Cards per degli Hamburger:** Ogni bevanda è presentata tramite una "card" con classe "hamburger-card". Gli hamburger sono animati con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.:small_red_triangle:
 
 * **Ogni card contiene:** Un'immagine rappresentativa degli hamburger. Un titolo identificativo degli hamburger *(es. "Hamburger del Mese")*. Il prezzo dell'hamburger. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
   
@@ -711,7 +712,7 @@ La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un do
 
 * Foglio di Stile Locale: Collegamento al foglio di stile locale ".style-off.css" per la formattazione della pagina.:small_red_triangle:
 
-* Titolo della Pagina: "FORM PER OFFERTE ~GM" visualizzato nella barra del titolo del browser.
+* Titolo della Pagina: "FORM PER OFFERTE ~GM" visualizzato nella barra del titolo del browser.:small_red_triangle:
 <br><br>
 #### :bangbang: BODY :bangbang:
 La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione "**body**":
@@ -746,13 +747,13 @@ La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un do
 
 * Un titolo con il tag ***h3*** centrato che fornisce una breve istruzione agli utenti sulla finalità del form.".:small_red_triangle:
 * Un form HTML con il metodo di invio **POST** e l'azione "inv-email.php". Include campi di input per il nome, cognome, età, email e una selezione del sesso tramite radio button.:small_red_triangle:
- * **Nome:** Input per il nome dell'utente.
- * **Cognome:** Input per il cognome dell'utente.
- * **Età:** Input numerico per l'età dell'utente.
- * **Email:** Input per l'indirizzo email dell'utente.
- * **Sesso:** Selezione del sesso tramite radio button (Maschio, Femmina, Altro).
- * **Pulsante di Invio:** Un pulsante di tipo submit che consente agli utenti di inviare il form.
-* Alla ***fine*** si inviano tutti i dati a un'altra pagina PHP.
+  * ***Nome:*** Input per il nome dell'utente.:heavy_check_mark:
+  * ***Cognome:*** Input per il cognome dell'utente.:heavy_check_mark:
+  * ***Età:*** Input numerico per l'età dell'utente.:heavy_check_mark:
+  * ***Email:*** Input per l'indirizzo email dell'utente.:heavy_check_mark:
+  * ***Sesso:*** Selezione del sesso tramite radio button (Maschio, Femmina, Altro).:heavy_check_mark:
+  * ***Pulsante di Invio:*** Un pulsante di tipo submit che consente agli utenti di inviare il form.:heavy_check_mark:
+* Alla ***fine*** si inviano tutti i dati a un'altra pagina PHP.:small_red_triangle:
 <br>
 
 ```PHP
