@@ -12,7 +12,8 @@ L'obiettivo principale è fornire agli sviluppatori e agli utenti interessati un
 | [Spiegazione Codice](#Spiegazione-del-Codice)     | Sezione della spiegazione del codice                   |
 | [Scelta Delle Bevande](#Scelta-bevande)          | Sezione della spiegazione del codice che gestisce le bevande |
 | [Scelta Dei Dessert](#Scelta-dessert)            | Sezione della spiegazione del codice che gestisce i dessert   |
-
+| [Scelta Degli Hamburger](#Scelta-Hamburger)      | Sezione della spiegazione del codice che gestisce gli hamburger  |
+| [Form Per i Dati](#Form-Dati)      | Sezione della spiegazione del codice che gestisce l'inserimento dei dati personali  |
 </div>
 
 
@@ -427,7 +428,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
    <br>
    
-<h2 id="Scelta-dessert">index.html <i>(SCELTA DESSERT ~GM)</i> :cake: </h2>
+<h2 id="Scelta-dessert">index.html <i>(SCELTA DESSERT ~GM)</i> :cake:  <a href="#indice-top">Torna all'indice</a></h2>
 <br>
 
 #### :bangbang: HEAD :bangbang:
@@ -551,3 +552,241 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 * **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
 
  * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
+<br>
+ 
+
+<h2 id="Scelta-hamburger"> index.html <i>(SCELTA HAMBURGER ~GM)</i>  :hamburger: <a href="#indice-top">Torna all'indice</a></h2>
+<br>
+
+#### :bangbang: HEAD :bangbang:
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
+
+  <br>
+  
+```HTML
+ <head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile -->
+    <link rel="stylesheet" href="./style_hamburger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Titolo della pagina -->
+    <title>SCELTA HAMBURGER ~GM</title>
+</head>
+
+   ```
+<br>
+
+* Codifica dei Caratteri: UTF-8 per supportare un vasto insieme di caratteri e lingue.:small_red_triangle:
+
+* Viewport Mobile: Ottimizza la visualizzazione su dispositivi mobili con una larghezza di viewport basata sul dispositivo e uno zoom iniziale di 1.0.:small_red_triangle:
+
+* Foglio di Stile Locale: Collegamento al foglio di stile locale ".style_hamburger.css" per la formattazione della pagina.:small_red_triangle:
+
+* Foglio di Stile Esterno (animate.min.css): Collegamento a un foglio di stile esterno dalla libreria "animate.css" per animazioni predefinite.:small_red_triangle:
+
+* Titolo della Pagina: "SCELTA HAMBURGER ~GM" visualizzato nella barra del titolo del browser.
+<br><br>
+#### :bangbang: BODY :bangbang:
+La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione "**body**":
+<br>
+
+```HTML
+<body>
+    <!-- Sezione del titolo -->
+    <div class="title">
+        <h1 class="animate__animated animate__lightSpeedInRight">SCEGLI L'HAMBURGER</h1>
+    </div>
+
+    <!-- Form per la selezione degli hamburger -->
+    <form action="./process_hamburger.php" method="post">
+
+        <!-- Primo hamburger -->
+        <div class="hamburger-card animate__animated animate__fadeInLeft ">
+            <img src="./hamb_6.jpg" alt="Hamburger del Mese - Hamburger 1">
+            <h2>Hamburger del Mese</h2>
+            <p>Prezzo: €8.99</p>
+            <label for="quantita_hamburger_1">Quantità:</label>
+            <input type="number" name="quantita_hamburger_1" id="quantita_hamburger_1" min="0" value="0">
+        </div>
+
+        <!-- Secondo hamburger -->
+        <div class="hamburger-card animate__animated animate__fadeInRight ">
+            <img src="./hamb_1.jpg" alt="Hamburger Classico - Hamburger 2">
+            <h2>Hamburger Classico</h2>
+            <p>Prezzo: €6.99</p>
+            <label for="quantita_hamburger_2">Quantità:</label>
+            <input type="number" name="quantita_hamburger_2" id="quantita_hamburger_2" min="0" value="0">
+        </div>
+<!-- etc... -->
+        <!-- Pulsante di submit per procedere -->
+        <input type="submit" value="AVANTI" style="font-size: 60px;" class=" animate__animated animate__bounceInUp">
+    </form>
+</body>
+   ``` 
+<br>
+
+* Una div con classe *"title"* racchiude il titolo principale "SCEGLI L'HAMBURGER".:small_red_triangle:
+  
+* Il titolo è animato con l'effetto "lightSpeedInRight" di "animate.css".:small_red_triangle:
+  
+* **Form per la Selezione degli Hamburger:** Utilizza un form con metodo "post" e azione *"./process_hamburger.php"* per elaborare la selezione degli Hamburger.
+Cards per degli Hamburger: Ogni bevanda è presentata tramite una "card" con classe "hamburger-card". Gli hamburger sono animati con effetti di entrata come *"fadeInLeft"* e *"fadeInRight"* di *"animate.css"*.:small_red_triangle:
+
+* **Ogni card contiene:** Un'immagine rappresentativa degli hamburger. Un titolo identificativo degli hamburger *(es. "Hamburger del Mese")*. Il prezzo dell'hamburger. Un campo di input numerico per specificare la quantità desiderata.:small_red_triangle:
+  
+* **Pulsante di Submit:** Il form include un pulsante di submit con etichetta *"AVANTI"*. Il pulsante è stilizzato con una dimensione del carattere di 60px e animato con *"bounceInUp"* di *"animate.css"*.:small_red_triangle:
+<br>
+
+## ***process_hamburger.php*** (SCELTA HAMBURGER ~GM) :grinning:
+
+<br>
+
+```PHP
+<?php
+// Inizializza la sessione
+session_start();
+
+// Verifica se la richiesta è di tipo POST
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Recupera le quantità di hamburger dal modulo
+    $quantita_hamburger_1 = isset($_POST["quantita_hamburger_1"]) ? $_POST["quantita_hamburger_1"] : 0;
+    $quantita_hamburger_2 = isset($_POST["quantita_hamburger_2"]) ? $_POST["quantita_hamburger_2"] : 0;
+    $quantita_hamburger_3 = isset($_POST["quantita_hamburger_3"]) ? $_POST["quantita_hamburger_3"] : 0;
+    $quantita_hamburger_4 = isset($_POST["quantita_hamburger_4"]) ? $_POST["quantita_hamburger_4"] : 0;
+
+    // Memorizza le quantità nelle sessioni
+    $_SESSION["quantita_hamburger_1"] = $quantita_hamburger_1;
+    $_SESSION["quantita_hamburger_2"] = $quantita_hamburger_2;
+    $_SESSION["quantita_hamburger_3"] = $quantita_hamburger_3;
+    $_SESSION["quantita_hamburger_4"] = $quantita_hamburger_4;
+
+    // Reindirizza l'utente alla pagina principale
+    header("Location: ../index.html");
+    exit();
+}
+?>
+
+   ```
+<br>
+
+* La funzione ***session_start()*** inizia una sessione PHP. Le sessioni sono una forma di archiviazione temporanea di dati lato **server** associata a un utente specifico durante la sua visita al sito.:small_red_triangle:
+
+* **Recupero dei dati delle bevande:** Se la richiesta è di tipo *POST*, nel codice si inizializzano delle variabile per controllare la quantità dei diversi hamburger.:small_red_triangle:
+  
+* **Funzione isset():** Con l'utilizzo della funziona ***isset()*** riusciamo a controllare se la variabile passata tramite la sessione abbia un valore, se è vero gli assegna il valore della variabile, altrimenti assegna il valore 0 alla variabile.:small_red_triangle:
+
+ * **Reindirizzamento alla home:** Con le funzioni header() e exit() si riesce a reindirizzare, dopo il controllo delle variabili, alla pagina home senza che l'utente si accorga dell'elaborazione dei dati.:small_red_triangle:
+   
+   <br>
+   
+<h2 id="Form-Dati">index.html <i>(FORM PER OFFERTE ~GM)</i> :bookmark:  <a href="#indice-top">Torna all'indice</a></h2>
+<br>
+
+#### :bangbang: HEAD :bangbang:
+La sezione :heavy_exclamation_mark: "**head**" :heavy_exclamation_mark: in un documento HTML contiene i metadati e le informazioni di importanza generale per la pagina web. Di seguito, una breve descrizione degli elementi presenti nella "**head**".
+
+  <br>
+  
+```HTML
+<head>
+    <!-- Metadati del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Collegamento ai fogli di stile -->
+    <link rel="stylesheet" href="./style-off.css">
+    <!-- Titolo della pagina -->
+    <title>FORM PER OFFERTE ~GM</title>
+</head>
+   ```
+<br>
+
+* Codifica dei Caratteri: UTF-8 per supportare un vasto insieme di caratteri e lingue.:small_red_triangle:
+
+* Viewport Mobile: Ottimizza la visualizzazione su dispositivi mobili con una larghezza di viewport basata sul dispositivo e uno zoom iniziale di 1.0.:small_red_triangle:
+
+* Foglio di Stile Locale: Collegamento al foglio di stile locale ".style-off.css" per la formattazione della pagina.:small_red_triangle:
+
+* Titolo della Pagina: "FORM PER OFFERTE ~GM" visualizzato nella barra del titolo del browser.
+<br><br>
+#### :bangbang: BODY :bangbang:
+La sezione :heavy_exclamation_mark: "**body**" :heavy_exclamation_mark: in un documento HTML contiene il contenuto effettivo visualizzato sulla pagina web. Ecco una breve descrizione degli elementi tipicamente presenti nella sezione "**body**":
+<br>
+
+```HTML
+<body>
+   <!-- Sezione del titolo -->
+    <h3 style="text-align: center;">Scrivi i tuoi dati per ricevere offerte impredibili tramite email.</h3>
+
+ <!-- Form per l'inserimento dei propri dati -->
+   <form method="post" action="inv-email.php">
+        <!-- Campo Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+
+        <!-- Campo Cognome -->
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" name="cognome" required>
+        <br>
+
+<!-- etc... -->
+
+        <!-- Pulsante di invio del form -->
+        <input type="submit" value="Invia">
+    </form>
+
+</body>
+   ``` 
+<br>
+
+* Un titolo con il tag ***h3*** centrato che fornisce una breve istruzione agli utenti sulla finalità del form.".:small_red_triangle:
+* Un form HTML con il metodo di invio **POST** e l'azione "inv-email.php". Include campi di input per il nome, cognome, età, email e una selezione del sesso tramite radio button.:small_red_triangle:
+ * **Nome:** Input per il nome dell'utente.
+ * **Cognome:** Input per il cognome dell'utente.
+ * **Età:** Input numerico per l'età dell'utente.
+ * **Email:** Input per l'indirizzo email dell'utente.
+ * **Sesso:** Selezione del sesso tramite radio button (Maschio, Femmina, Altro).
+ * **Pulsante di Invio:** Un pulsante di tipo submit che consente agli utenti di inviare il form.
+* Alla ***fine*** si inviano tutti i dati a un'altra pagina PHP.
+<br>
+
+```PHP
+<body>
+    <!-- Intestazione della pagina -->
+    <h1 class="h1-pag">CONFERMA EMAIL</h1>
+
+    <!-- Contenitore principale -->
+    <div class="container-pag">
+        <?php
+        // Verifica se la richiesta è di tipo POST
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            // Recupera l'indirizzo email dalla richiesta POST
+            $email = $_POST["email"];
+            
+            // Messaggio di conferma con l'indirizzo email ricevuto
+            echo '<p style="text-decoration:none; color: green; font-weight: bold;">Dati inviati correttamente, riceverai presto una risposta su: '. $email. '</p>';
+        } else {
+            // Messaggio di errore se il modulo non è stato inviato correttamente
+            echo "<p>Errore nell'invio del modulo.</p>";
+        }
+        ?>
+        
+        <!-- Link per tornare alla home -->
+        <br>
+        <a href="../index.html" class="button-pag">Clicca per tornare alla home</a>
+    </div>
+</body>
+
+   ``` 
+<br>
+
+* **Contenitore Principale:** Una div con la classe "container-pag" che racchiude il contenuto principale della pagina.:small_red_triangle:
+
+* **PHP per la Gestione del Modulo POST:** Un blocco di ***PHP*** verifica se la richiesta è di tipo **POST**. Se è così, recupera l'indirizzo email inviato dal modulo POST e mostra un messaggio di conferma con l'indirizzo email ricevuto. *In caso di errore* nell'invio del modulo, viene visualizzato un *messaggio di errore.*:small_red_triangle:
+
+* **Link per Tornare alla Home:** Un link che reindirizza alla pagina principale (index.html) con il testo *"Clicca per tornare alla home".*:small_red_triangle:
